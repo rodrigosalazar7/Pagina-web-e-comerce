@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - Coco Shop</title>
+    <link rel="stylesheet" href="Estilos-Usuario.css">
+</head>
+<body>
+    <header>
+        <!-- Nombre de la página -->
+        <div class="logo">
+            Coco Shop
+            <div class="subtext">
+                <a href="#nosotros">Nosotros</a> | <a href="#contacto">Contáctanos</a>
+            </div>
+        </div>
+
+        <!-- Barra de búsqueda -->
+        <div class="search-bar">
+            <input type="text" placeholder="Buscar productos...">
+            <button>Buscar</button>
+        </div>
+
+        <!-- Barra de navegación -->
+        <nav>
+            <a href="#productos">Productos</a>
+        </nav>
+
+        <!-- Íconos de usuario y carrito -->
+        <div class="icons">
+            <a href="#carrito" title="Carrito">🛒</a>
+            <a href="#usuario" title="Usuario">👤</a>
+        </div>
+    </header>
+
+
+    <!-- Formulario de inicio de sesión -->
+    <main class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form action="/login" method="POST">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña" required>
+
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        <p>¿No tienes una cuenta? <a href="Usuario-Reg.html">Regístrate aquí</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Coco Shop. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

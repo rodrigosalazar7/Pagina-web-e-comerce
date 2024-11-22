@@ -1,0 +1,207 @@
+/* Estilos para la barra de navegación */
+header {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #53b8b8;
+    border-bottom: 5px solid #3a7e7e;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 0.9rem;
+    color: gray;
+    margin-top: 5px;
+}
+
+.subtext a {
+    text-decoration: none;
+    color: gray;
+}
+
+.subtext a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 1rem;
+    width: 200px;
+    border: 1px solid #3a7e7e;
+    border-radius: 40px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+search-bar button:hover {
+    background-color: #555;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+/* Estilo para la página de inicio de sesión */
+main.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main.login-container h1 {
+    text-align: center;
+    color: #53b8b8;
+    margin-bottom: 20px;
+}
+
+main.login-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main.login-container label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+main.login-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+main.login-container button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #53b8b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main.login-container button:hover {
+    background-color: #3a7e7e;
+}
+
+main.login-container p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+main.login-container p a {
+    color: #53b8b8;
+    text-decoration: none;
+}
+
+main.login-container p a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para la página de registro */
+main.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main.register-container h1 {
+    text-align: center;
+    color: #53b8b8;
+    margin-bottom: 20px;
+}
+
+main.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main.register-container label {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+main.register-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+main.register-container button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #53b8b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main.register-container button:hover {
+    background-color: #3a7e7e;
+}
+
+main.register-container p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+main.register-container p a {
+    color: #53b8b8;
+    text-decoration: none;
+}
+
+main.register-container p a:hover {
+    text-decoration: underline;
+}
