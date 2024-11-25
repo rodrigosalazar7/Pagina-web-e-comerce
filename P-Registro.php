@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse - Coco Shop</title>
     <link rel="stylesheet" href="Estilo-registro.css">
+    <link rel="stylesheet" href="E-Navbar.css">
 </head>
 <body>
-    <header>
+<header>
         <!-- Nombre de la página -->
         <div class="logo">
-            <a href="http://localhost/PIAPROWEB/P-Principal.php">CocoShop</a>
-            <div class="subtext">
-                <a href="SobreNosotros.html">Nosotros</a> | <a href="#contacto">Contáctanos</a>
-            </div>
+            <a class="coco"href="http://localhost/PIAPROWEB/P-Principal.php">CocoShop</a>
         </div>
 
         <!-- Barra de búsqueda -->
@@ -30,9 +28,19 @@
         <!-- Íconos de usuario y carrito -->
         <div class="icons">
             <a href="#carrito" title="Carrito">🛒</a>
-            <a href="#usuario" title="Usuario">👤</a>
+            <a href="http://localhost/PIAPROWEB/P-Registro.php" title="Usuario">👤</a>
         </div>
     </header>
+    <div class="subheader">
+    <nav class="textosubheader">
+        <a href="#categorias">Categorías</a>
+        <a href="http://localhost/PIAPROWEB/P-Playeras.php">Playeras</a>
+        <a href="#calcetas">Calcetas</a>
+        <a href="#gorras">Gorras</a>
+        <a href="SobreNosotros.html">Sobre Nosotros</a>
+        <a href="#contacto">Contáctanos</a>
+    </nav>
+    </div>
 
 
     <!-- Formulario de registro -->

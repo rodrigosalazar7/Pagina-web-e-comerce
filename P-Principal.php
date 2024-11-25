@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi E-commerce</title>
     <link rel="stylesheet" href="Estilos-principal.css">
+    <link rel="stylesheet" href="E-Navbar.css">
 </head>
 <body>
     <header>
         <!-- Nombre de la página -->
         <div class="logo">
-            <a href="http://localhost/PIAPROWEB/P-Principal.php">CocoShop</a>
-            <div class="subtext">
-                <a href="SobreNosotros.html">Nosotros</a> | <a href="#contacto">Contáctanos</a>
-            </div>
+            <a class="coco"href="http://localhost/PIAPROWEB/P-Principal.php">CocoShop</a>
         </div>
 
         <!-- Barra de búsqueda -->
@@ -33,10 +31,26 @@
             <a href="http://localhost/PIAPROWEB/P-Registro.php" title="Usuario">👤</a>
         </div>
     </header>
+    <div class="subheader">
+    <nav class="textosubheader">
+        <a href="#categorias">Categorías</a>
+        <a href="http://localhost/PIAPROWEB/P-Playeras.php">Playeras</a>
+        <a href="#calcetas">Calcetas</a>
+        <a href="#gorras">Gorras</a>
+        <a href="SobreNosotros.html">Sobre Nosotros</a>
+        <a href="#contacto">Contáctanos</a>
+    </nav>
+    </div>
 
     <!-- Contenido de la página -->
     <main>
         <h1>Bienvenido a Coco Shop!</h1>
     </main>
+
+  
+
+    <footer>
+        <p>&copy; 2024 Coco Shop. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
