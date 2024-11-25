@@ -1,6 +1,6 @@
 <?php
 // Conexión a la base de datos
-$conex = mysqli_connect("localhost", "root", "Rodyvalen#1", "registro");
+$conex = mysqli_connect("localhost", "root", "Rodyvalen#1", "prograweb");
 
 // Verificar conexión
 if (!$conex) {

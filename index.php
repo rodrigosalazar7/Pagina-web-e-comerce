@@ -45,6 +45,9 @@
             <label for="email">Correo Electrónico:</label>
             <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
 
+            <label for="phonenumber">Telefono:</label>
+            <input type="phonenumber" id="phonenumber" name="phonenumber" placeholder="Ingrese su numero" required>
+
             <label for="password">Contraseña:</label>
             <input type="password" id="password" name="password" placeholder="Crea una contraseña" required>
 
