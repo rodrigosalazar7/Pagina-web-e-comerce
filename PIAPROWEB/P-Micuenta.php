@@ -26,7 +26,7 @@
             <a href="#productos">Productos</a>
         </nav>
         <nav>
-            <a href="http://localhost/PIAPROWEB/P-micuenta.php">Mi cuenta</a>
+            <a href="http://localhost/PIAPROWEB/P-Principal.php">Cerrar Sesion</a>
         </nav>
         <!-- Íconos de usuario y carrito -->
         <div class="icons">
