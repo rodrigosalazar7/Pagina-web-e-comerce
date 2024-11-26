@@ -49,10 +49,10 @@
     <!-- Primera Card -->
     <div class="col-md-4">
       <div class="card" style="width: 100%;">
-        <img src="Imagenes/camisa-blanca.png" class="card-img-top" alt="...">
+        <img src="Imagenes/Gorra-Blanca.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Playera Blanca</h5>
-          <p class="card-text">Playera Blanca Basica</p>
+          <h5 class="card-title">Gorra Blanca</h5>
+          <p class="card-text">Gorra Blanca Basica</p>
           <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
           <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
         </div>
@@ -61,10 +61,10 @@
     <!-- Segunda Card -->
     <div class="col-md-4">
       <div class="card" style="width: 92%;">
-        <img src="Imagenes/camisa-gris.png" class="card-img-top" alt="...">
+        <img src="Imagenes/Gorra-Gris.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Playera Gris</h5>
-          <p class="card-text">Playera Gris Basica</p>
+          <h5 class="card-title">Gorra Gris</h5>
+          <p class="card-text">Gorra Gris Basica</p>
           <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
           <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
         </div>
@@ -73,10 +73,10 @@
     <!-- Tercera Card -->
     <div class="col-md-4">
       <div class="card" style="width: 95%;">
-        <img src="Imagenes/camisa-negra.png" class="card-img-top" alt="...">
+        <img src="Imagenes/Gorra-Negra.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Playera Negra</h5>
-          <p class="card-text">Playera Negra Basica</p>
+          <h5 class="card-title">Gorra Negra</h5>
+          <p class="card-text">Gorra Negra Basica</p>
           <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
           <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
         </div>
