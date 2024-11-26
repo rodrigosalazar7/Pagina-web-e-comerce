@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi E-commerce</title>
-    <link rel="stylesheet" href="E-Playera.css">
+    <link rel="stylesheet" href="Estilos-principal.css">
     <link rel="stylesheet" href="E-Navbar.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="E-micuenta.css">
 </head>
 <body>
     <header>
@@ -45,48 +45,28 @@
     </nav>
     </div>
 
+    <div class="container">
+        <h1>Mi cuenta</h1>
+        <div class="input-group">
+            <input type="text" placeholder="Nombre">
+            <img src="https://img.icons8.com/ios-filled/16/000000/edit.png" alt="Editar" class="edit-icon">
+        </div>
+        <div class="input-group">
+            <input type="text" placeholder="Ubicación">
+            <img src="https://img.icons8.com/ios-filled/16/000000/edit.png" alt="Editar" class="edit-icon">
+        </div>
+        <div class="input-group">
+            <input type="email" placeholder="Correo">
+            <img src="https://img.icons8.com/ios-filled/16/000000/edit.png" alt="Editar" class="edit-icon">
+        </div>
+        <div class="input-group">
+            <input type="password" placeholder="Cambiar contraseña">
+            <img src="https://img.icons8.com/ios-filled/16/000000/edit.png" alt="Editar" class="edit-icon">
+        </div>
+        <button class="btn">Aplicar cambios</button>
+    </div>
 
-    <div class="container mt-4">
-  <div class="row">
-    <!-- Primera Card -->
-    <div class="col-md-4">
-      <div class="card" style="width: 90%;">
-        <img src="Imagenes/camisa-blanca.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Playera Blanca</h5>
-          <p class="card-text">Playera Blanca Basica</p>
-          <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
-          <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
-        </div>
-      </div>
-    </div>
-    <!-- Segunda Card -->
-    <div class="col-md-4">
-      <div class="card" style="width: 82%;">
-        <img src="Imagenes/camisa-gris.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Playera Gris</h5>
-          <p class="card-text">Playera Gris Basica</p>
-          <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
-          <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
-        </div>
-      </div>
-    </div>
-    <!-- Tercera Card -->
-    <div class="col-md-4">
-      <div class="card" style="width: 85%;">
-        <img src="Imagenes/camisa-negra.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Playera Negra</h5>
-          <p class="card-text">Playera Negra Basica</p>
-          <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
-          <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+  
 
     <footer>
         <p>&copy; 2024 Coco Shop. Todos los derechos reservados.</p>

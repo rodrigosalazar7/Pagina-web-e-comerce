@@ -1,5 +1,6 @@
 h1{
     text-align: center;
+   
 }
 footer {
     position: absolute; /* Posiciona el footer respecto al contenedor más cercano con position: relative */

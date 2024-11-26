@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,7 @@
     <title>Mi E-commerce</title>
     <link rel="stylesheet" href="E-Playera.css">
     <link rel="stylesheet" href="E-Navbar.css">
+    <link rel="stylesheet" href="E-card.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -14,13 +15,11 @@
         <div class="logo">
             <a class="coco"href="http://localhost/PIAPROWEB/P-Principal.php">CocoShop</a>
         </div>
-
         <!-- Barra de búsqueda -->
         <div class="search-bar">
             <input type="text" placeholder="Buscar productos...">
             <button>Buscar</button>
         </div>
-
         <!-- Barra de navegación -->
         <nav>
             <a href="#productos">Productos</a>
@@ -44,50 +43,25 @@
         <a href="http://localhost/PIAPROWEB/P-contactanos.php">Contáctanos</a>
     </nav>
     </div>
+    <div class="cardcategorias" id="cardd" style="width: 18rem;">
+  <div class="card-body">
+    
+    <a href="http://localhost/PIAPROWEB/P-Playeras.php" class="card-link">Playeras</a>
 
-
-    <div class="container mt-4">
-  <div class="row">
-    <!-- Primera Card -->
-    <div class="col-md-4">
-      <div class="card" style="width: 90%;">
-        <img src="Imagenes/camisa-blanca.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Playera Blanca</h5>
-          <p class="card-text">Playera Blanca Basica</p>
-          <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
-          <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
-        </div>
-      </div>
+  </div>
+</div>
+<div class="card-container">
+  <div class="cardcategorias" id="cardd" style="width: 18rem;">
+    <div class="card-body">
+      <a href="http://localhost/PIAPROWEB/P-Calcetas.php" class="card-link">Calcetas</a>
     </div>
-    <!-- Segunda Card -->
-    <div class="col-md-4">
-      <div class="card" style="width: 82%;">
-        <img src="Imagenes/camisa-gris.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Playera Gris</h5>
-          <p class="card-text">Playera Gris Basica</p>
-          <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
-          <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
-        </div>
-      </div>
-    </div>
-    <!-- Tercera Card -->
-    <div class="col-md-4">
-      <div class="card" style="width: 85%;">
-        <img src="Imagenes/camisa-negra.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Playera Negra</h5>
-          <p class="card-text">Playera Negra Basica</p>
-          <a href="#" id="botonplayera" class="btn btn-primary">Añadir</a>
-          <a href="#" id="botonplayeratalla" class="btn btn-primary">Talla</a>
-        </div>
-      </div>
+  </div>
+  <div class="cardcategorias" id="cardd" style="width: 18rem;">
+    <div class="card-body">
+      <a href="http://localhost/PIAPROWEB/P-Gorras.php" class="card-link">Gorras</a>
     </div>
   </div>
 </div>
-
-
     <footer>
         <p>&copy; 2024 Coco Shop. Todos los derechos reservados.</p>
     </footer>

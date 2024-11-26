@@ -6,6 +6,7 @@
     <title>Mi E-commerce</title>
     <link rel="stylesheet" href="Estilos-principal.css">
     <link rel="stylesheet" href="E-Navbar.css">
+    <link rel="stylesheet" href="E-carrito.css">
 </head>
 <body>
     <header>
@@ -46,11 +47,27 @@
     </nav>
     </div>
 
-    <!-- Contenido de la página -->
-    <main>
-        <h1>Bienvenido a Coco Shop!</h1>
-    </main>
-
+    <div class="cart-container">
+        <h1>Mi carrito</h1>
+        <table class="cart-table">
+            <tr>
+                <td><img src="????" alt="Camisa Coco Blanca" class="cart-img"></td>
+                <td>Camisa Coco Blanca     Talla </td>
+                <td>$0</td>
+                <td>
+                    <div class="quantity-controls">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="cart-footer">
+            <button class="next-button">Siguiente...</button>
+            <span class="total">Total: $0</span>
+        </div>
+    </div>
 
 
   

@@ -1,2 +1,1 @@
-Para añadir en tabla rol
-    INSERT INTO rol (idRoles, Descriipcion) VALUES (1, 'cliente');
+Profe pasenos porfa

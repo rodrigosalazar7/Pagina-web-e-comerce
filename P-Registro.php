@@ -24,21 +24,23 @@
         <nav>
             <a href="#productos">Productos</a>
         </nav>
-
+        <nav>
+            <a href="http://localhost/PIAPROWEB/P-micuenta.php">Mi cuenta</a>
+        </nav>
         <!-- Íconos de usuario y carrito -->
         <div class="icons">
-            <a href="#carrito" title="Carrito">🛒</a>
+            <a href="http://localhost/PIAPROWEB/P-carrito.php" title="Carrito">🛒</a>
             <a href="http://localhost/PIAPROWEB/P-Registro.php" title="Usuario">👤</a>
         </div>
     </header>
     <div class="subheader">
     <nav class="textosubheader">
-        <a href="#categorias">Categorías</a>
+        <a href="http://localhost/PIAPROWEB/P-Categorias.php">Categorías</a>
         <a href="http://localhost/PIAPROWEB/P-Playeras.php">Playeras</a>
-        <a href="#calcetas">Calcetas</a>
-        <a href="#gorras">Gorras</a>
-        <a href="SobreNosotros.html">Sobre Nosotros</a>
-        <a href="#contacto">Contáctanos</a>
+        <a href="http://localhost/PIAPROWEB/P-Calcetas.php">Calcetas</a>
+        <a href="http://localhost/PIAPROWEB/P-Gorras.php">Gorras</a>
+        <a href="http://localhost/PIAPROWEB/P-SobreNosotros.php">Sobre Nosotros</a>
+        <a href="http://localhost/PIAPROWEB/P-contactanos.php">Contáctanos</a>
     </nav>
     </div>
 
@@ -59,14 +61,11 @@
             <label for="password">Contraseña:</label>
             <input type="password" id="password" name="password" placeholder="Crea una contraseña" required>
 
-            <label for="confirm-password">Confirmar Contraseña:</label>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirma tu contraseña" required>
-
             <button type="submit" name="register">Registrarse</button>
         </form>
         
 
-        <p>¿Ya tienes una cuenta? <a href="usuarios.html">Inicia sesión aquí</a></p>
+        <p>¿Ya tienes una cuenta? <a href="http://localhost/PIAPROWEB/P-Iniciarsesion.php">Inicia sesión aquí</a></p>
     </main>
 
     <?php
