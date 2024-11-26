@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+   
+}
+footer {
+    position: absolute; /* Posiciona el footer respecto al contenedor más cercano con position: relative */
+    bottom: 0; /* Siempre estará pegado al fondo */
+    width: 100%; /* Para que ocupe todo el ancho */
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    color: #555;
+}
+
