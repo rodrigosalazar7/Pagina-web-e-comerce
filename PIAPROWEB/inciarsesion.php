@@ -37,6 +37,7 @@ if ($resultado->num_rows > 0) {
     exit();
 }
 
+
 $stmt->close();
 mysqli_close($conex);
 ?>

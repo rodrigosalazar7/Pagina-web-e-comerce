@@ -18,7 +18,7 @@ if (isset($_POST['usuario']) && isset($_POST['contraseña'])) {
     }
 
     // Consulta SQL para verificar usuario
-    $consulta = "SELECT * FROM usuario WHERE Nombre_usuarios='$usuario'";
+    $consulta = "SELECT * FROM usuario WHERE Nombre_usuarios = '$usuario'";
     $resultado = mysqli_query($conexion, $consulta);
 
     // Verificar si hay errores en la consulta
@@ -33,12 +33,18 @@ if (isset($_POST['usuario']) && isset($_POST['contraseña'])) {
         // Obtener los datos del usuario
         $usuario_db = mysqli_fetch_assoc($resultado);
 
-        // Verificar la contraseña con password_verify() si está encriptada
+        // Verificar la contraseña
         if (password_verify($contraseña, $usuario_db['Contraseña'])) {
             // Si la contraseña es correcta, iniciar sesión
             $_SESSION['usuario'] = $usuario;
-            echo "Inicio de sesión exitoso. Redirigiendo...";
-            header("location:P-Principal.php");
+            $_SESSION['rol_id'] = $usuario_db['Rol_ID']; // Almacenar el Rol_ID en la sesión
+
+            // Redirigir según el Rol_ID
+            if ($usuario_db['Rol_ID'] == 2) {
+                header("location:http://localhost/PIAPROWEB/P-Admin/P-Principal-Admin.php");
+            } else {
+                header("location:P-Principal.php");
+            }
             exit();
         } else {
             // Si la contraseña no es correcta
