@@ -1,0 +1,22 @@
+/* Ajustar tamaño del carrusel */
+.carousel-inner {
+    margin-top: 100px;
+    max-width: 1000px; /* Establecer un ancho máximo más grande */
+    margin: 0 auto;   /* Centrar el carrusel */
+}
+
+#carouselExample{
+    margin-top: 50px;
+}
+
+.carousel-item img {
+    width: 300%;      /* Asegura que las imágenes se ajusten al contenedor */
+    max-height: 400px; /* Aumentar la altura máxima de las imágenes */
+    object-fit: cover; /* Ajusta las imágenes sin deformarlas */
+    align-items: center;
+    
+}
+
+.visually-hidden{
+    color: black;
+}

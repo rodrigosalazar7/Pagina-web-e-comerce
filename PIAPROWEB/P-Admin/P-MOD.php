@@ -40,10 +40,10 @@
     <div class="container">
         <h1>Moderación</h1>
         <div class="grid">
-            <div class="card">Usuarios</div>
-            <div class="card">Artículos</div>
-            <div class="card">Ventas</div>
-            <div class="card">Reportes</div>
+            <a href="http://localhost/PIAPROWEB/P-Admin/crud-usuarios.php" class="card">Usuarios</a>
+            <a href="http://localhost/PIAPROWEB/P-Admin/P-CArticulos.php" class="card">Articulo</a>
+            <button src="" class="card">Ventas</button>
+            <button src="" class="card">Reportes</button>
         </div>
         <h2 class="section-title">Administrador</h2>
         <div class="single-card">

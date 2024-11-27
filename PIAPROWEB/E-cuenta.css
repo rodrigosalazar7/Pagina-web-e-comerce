@@ -1,0 +1,118 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f9f9f9;
+}
+/* Header */
+header {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #003f3f;
+    border-bottom: 5px solid #001919;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.coco {
+    color: white;
+    text-decoration: none;
+}
+.search-bar {
+    display: flex;
+    gap: 5px;
+}
+.search-bar input {
+    padding: 5px;
+    font-size: 1rem;
+    border: 1px solid #001919;
+    border-radius: 5px;
+}
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search-bar button:hover {
+    background-color: #555;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+/* Subheader */
+.subheader {
+    background-color: #005c5c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 5px solid #001919;
+}
+.subheader nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.subheader nav a:hover {
+    text-decoration: underline;
+    color: #00ffff;
+}
+/* Contenido principal */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 30px auto;
+    border-top: 5px solid #003f3f;
+}
+.container h1 {
+    font-size: 20px;
+    color: #003f3f;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #001919;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.input-group .edit-icon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #003f3f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #005c5c;
+}

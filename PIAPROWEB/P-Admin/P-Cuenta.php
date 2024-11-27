@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi E-commerce</title>
-    <link rel="stylesheet" href="Estilos-principal.css">
-    <link rel="stylesheet" href="E-Navbar.css">
-    <link rel="stylesheet" href="E-carrusel.css">
-    
+    <title>Mi Cuenta</title>
+    <link rel="stylesheet" href="E-Cuenta.css">
 </head>
 <body>
+    <!-- Barra de navegación -->
     <header>
         <!-- Nombre de la página -->
         <div class="logo">
@@ -48,15 +46,26 @@
     </nav>
     </div>
 
- 
-    <main>
-        <h1>Bienvenido a Coco Shop!</h1>
-    </main>
-
-   
-
-    <footer>
-        <p>&copy; 2024 Coco Shop. Todos los derechos reservados.</p>
-    </footer>
+    <!-- Contenido principal -->
+    <div class="container">
+        <h1>Mi cuenta</h1>
+        <div class="input-group">
+            <input type="text" placeholder="Nombre">
+            <img src="https://img.icons8.com/ios-filled/16/000000/edit.png" alt="Editar" class="edit-icon">
+        </div>
+        <div class="input-group">
+            <input type="text" placeholder="Ubicación">
+            <img src="https://img.icons8.com/ios-filled/16/000000/edit.png" alt="Editar" class="edit-icon">
+        </div>
+        <div class="input-group">
+            <input type="email" placeholder="Correo">
+            <img src="https://img.icons8.com/ios-filled/16/000000/edit.png" alt="Editar" class="edit-icon">
+        </div>
+        <div class="input-group">
+            <input type="password" placeholder="Cambiar contraseña">
+            <img src="https://img.icons8.com/ios-filled/16/000000/edit.png" alt="Editar" class="edit-icon">
+        </div>
+        <button class="btn">Aplicar cambios</button>
+    </div>
 </body>
 </html>

@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.crud-container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.search-bar-crud {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.search-bar-crud input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.search-bar-crud button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-bar-crud button:hover {
+    background-color: #0056b3;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+table th, table td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+button.add, button.delete, button.edit {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.add {
+    background-color: #28a745;
+    color: white;
+}
+button.add:hover {
+    background-color: #218838;
+}
+button.delete {
+    background-color: #dc3545;
+    color: white;
+}
+button.delete:hover {
+    background-color: #c82333;
+}
+button.edit {
+    background-color: #ffc107;
+    color: black;
+}
+button.edit:hover {
+    background-color: #e0a800;
+}
